@@ -1,0 +1,12 @@
+{
+    "project_name": "loan-default-prediction",
+    "target_column": "Status",
+    "raw_data": "data/raw/loan_default_dataset.zip",
+    "processed_data": "data/processed/loan_default_processed.csv",
+    "model_path": "models/loan_default_model.pkl",
+    "feature_importance_path": "outputs/feature_importance.csv",
+    "metrics_path": "reports/model_metrics.csv",
+    "random_state": 42,
+    "test_size": 0.2,
+    "cv_folds": 5
+}
